@@ -60,7 +60,7 @@ waifu2x_ncnn_vulkan:
   'n': 2 # noise-level: denoise level (-1/0/1/2/3, default=0)
   s: 2 # scale: upscale ratio (1/2, default=2)
   t: 400 # tile-size: tile size (>=32, default=400)
-  m: '/content/dependencies/models/' # model-path: waifu2x model path (default=models-cunet)
+  m: '/content/dependencies/models/models-cunet/' # model-path: waifu2x model path (default=models-cunet)
   g: 0 # gpu-id: gpu device to use (default=0)
   j: '1:2:2' # thread count for load/proc/save (default=1:2:2) can be 1:2,2,2:2 for multi-gpu
   x: false # enable tta mode
